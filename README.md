@@ -7,7 +7,7 @@ Development updates can be found on our [forum](https://forum.devchroma.nl/index
 Install the following:
 
 1. PlayStation®Vita Programmer Tool Runtime Library 3.570
-2. Publishing Tools for PlayStation(R)Vita 2.31
+2. Publishing Tools for PlayStation®Vita 2.31
 3. SNC Toolchain for PSP2 3.570
 
 Set the environment variable `SCE_ROOT_DIR` to the root of your Publishing Tools installation directory, such that the following path exists:
@@ -37,7 +37,7 @@ Vita Development Suite releases are available from our [file host](https://bin.s
 
 ### PSP2 CMake Toolchains
 
-CMake platform definitions, compiler definitions, and toolchain files for the Vita for the SNC compiler and GCC. The minimum required CMake version is 3.19. Please use the following compatibility table.
+CMake platform definitions, compiler definitions, and toolchain files for the PlayStation®Vita SDK. The minimum required CMake version is 3.19. Please use the following compatibility table.
 
 | Version | CMake |
 | ------: | ----: |
@@ -45,7 +45,7 @@ CMake platform definitions, compiler definitions, and toolchain files for the Vi
 
 ### Libraries
 
-Additional libraries for the Vita.
+Additional libraries for the PlayStation®Vita SDK.
 
 For user headers, add the following to your system include search paths:
 
@@ -87,7 +87,7 @@ VDSUITE_365_LIBRARY_DIRECTORIES
 
 ### Toolchain
 
-Command lines tools for building executables and applications for the Vita. Use the `--help` flag to see usage.
+Command lines tools for building PRX libraries and applications. Use the `--help` flag to see usage.
 
 #### libgen
 
