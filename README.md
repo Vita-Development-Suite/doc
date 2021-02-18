@@ -1,6 +1,6 @@
 # Vita Development Suite
 
-Development updates can be found on our forum.
+Development updates can be found on our [forum](https://forum.devchroma.nl/index.php/topic,332.0.html).
 
 ## Prerequisites
 
