@@ -47,6 +47,44 @@ CMake platform definitions, compiler definitions, and toolchain files for the Vi
 
 Additional libraries for the Vita.
 
+For user headers, add the following to your system include search paths:
+
+```
+$SCE_PSP2_SDK_DIR/target/include/vdsuite/user
+$SCE_PSP2_SDK_DIR/target/include/vdsuite/common
+```
+
+For kernel headers, add the following to your system include search paths:
+
+```
+$SCE_PSP2_SDK_DIR/target/include/vdsuite/kernel
+$SCE_PSP2_SDK_DIR/target/include/vdsuite/common
+```
+
+For system software 3.60 and multi-version libraries, add the following to your library search paths:
+
+```
+$SCE_PSP2_SDK_DIR/target/lib/vdsuite
+```
+
+For system software 3.65 libraries, add the following to your library search paths:
+
+```
+$SCE_PSP2_SDK_DIR/target/lib/vdsuite/365
+$SCE_PSP2_SDK_DIR/target/lib/vdsuite
+```
+
+Please note the order of the paths, which are in decreasing priority.
+
+If you are using CMake, the `VitaDevelopmentSuite` module provides the following variables:
+
+```
+VDSUITE_USER_INCLUDE_DIRECTORIES
+VDSUITE_KERNEL_INCLUDE_DIRECTORIES
+VDSUITE_LIBRARY_DIRECTORIES
+VDSUITE_365_LIBRARY_DIRECTORIES
+```
+
 ### Toolchain
 
 Command lines tools for building executables and applications for the Vita. Use the `--help` flag to see usage.
@@ -73,4 +111,4 @@ Compiles EMD files.
 
 ### CMake Modules
 
-CMake integration for the toolchain.
+CMake integration for the toolchain and libraries.
