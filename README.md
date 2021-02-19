@@ -30,8 +30,10 @@ Vita Development Suite releases are available from our [file host](https://bin.s
 ### Installing GCC (optional)
 
 1. Download and install the [GNU Arm Embedded Toolchain](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads).
-2. Replace `bin/arm-none-eabi-ld` and `arm-none-eabi/bin/ld` with `psp2ld`.
-3. Add `bin` to your `PATH` environment variable.
+2. Replace `installpath/bin/arm-none-eabi-ld.exe` and `installpath/arm-none-eabi/bin/ld.exe` with `psp2ld.exe`.
+3. Add `installpath/bin` to your `PATH` environment variable.
+
+Where `installpath` is your GCC installation path.
 
 ## Components
 
