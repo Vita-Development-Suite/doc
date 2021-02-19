@@ -37,11 +37,11 @@ Vita Development Suite releases are available from our [file host](https://bin.s
 
 ### PSP2 CMake Toolchains
 
-CMake platform definitions, compiler definitions, and toolchain files for the PlayStation®Vita SDK. The minimum required CMake version is 3.19. Please use the following compatibility table.
+CMake platform definitions, compiler definitions, and toolchain files for the PlayStation®Vita SDK. The version must correspond to specific CMake versions. Lower CMake versions may work but are not tested.
 
 | Version | CMake |
 | ------: | ----: |
-|   0.1.0 |  3.19 |
+|     0.1 |  3.19 |
 
 ### Libraries
 
@@ -111,4 +111,4 @@ Compiles EMD files.
 
 ### CMake Modules
 
-CMake integration for the toolchain and libraries.
+CMake integration for the toolchain and libraries. CMake version 3.19 or greater is required.
